@@ -3,7 +3,7 @@
     >
 
     <browser:resourceDirectory
-      name="collective.js.rgraph"
+      name="rgraph"
       directory="resources"
       />
 

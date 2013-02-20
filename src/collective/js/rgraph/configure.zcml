@@ -1,28 +1,10 @@
 <configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:five="http://namespaces.zope.org/five"
-    xmlns:grok="http://namespaces.zope.org/grok"
-    xmlns:i18n="http://namespaces.zope.org/i18n"
-    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="collective.js.rgraph">
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
 
-    <i18n:registerTranslations directory="locales" />
-
-    <five:registerPackage package="." initialize=".initialize" />
-
-    <includeDependencies package="." />
-
-    <include package=".browser" />
-    <include package=".content" />
-
-    <grok:grok package="." />
-
-    <genericsetup:registerProfile
-        name="default"
-        title="collective.js.rgraph"
-        directory="profiles/default"
-        description="Installs the collective.js.rgraph add-on."
-        provides="Products.GenericSetup.interfaces.EXTENSION"
-        />
+    <browser:resourceDirectory
+      name="collective.js.rgraph"
+      directory="resources"
+      />
 
 </configure>

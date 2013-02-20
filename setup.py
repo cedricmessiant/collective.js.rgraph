@@ -25,7 +25,6 @@ setup(
     classifiers=[
     	"Environment :: Web Environment",
         "Framework :: Plone",
-        "Framework :: Plone :: 4.2.3",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
     ],
@@ -40,8 +39,6 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'five.grok',
-        'plone.api',
         'setuptools',
     ],
     extras_require={

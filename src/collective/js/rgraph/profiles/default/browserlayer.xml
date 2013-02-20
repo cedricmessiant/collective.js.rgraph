@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<layers>
-  <layer
-    name="collective.js.rgraph"
-    interface="collective.js.rgraph.interfaces.ICollective.jsRgraphLayer"
-  />
-</layers>

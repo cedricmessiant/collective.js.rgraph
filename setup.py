@@ -19,11 +19,11 @@ long_description = (
 setup(
     name='collective.js.rgraph',
     version='1.0',
-    description="Rgraph library for Plone",
+    description="RGraph javascript library for Plone",
     long_description=long_description,
     # Get more from http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
-    	"Environment :: Web Environment",
+        "Environment :: Web Environment",
         "Framework :: Plone",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",

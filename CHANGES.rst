@@ -2,9 +2,9 @@ Changelog
 =========
 
 
-0.1 (unreleased)
+1.0 (2013-03-27)
 ----------------
 
-- Initial release.
+- Include RGraph 20120113-stable with some changes for labels in Radar.
   [cedricmessiant]
 
